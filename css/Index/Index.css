@@ -88,12 +88,14 @@ header
 .menu nav ul li a
 {
     font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
     transition: color 300ms;
 }
 
 .menu nav ul li a:hover
 {
-    color: #46a2fd;
+    color: #88ff92;
 
 }
 
