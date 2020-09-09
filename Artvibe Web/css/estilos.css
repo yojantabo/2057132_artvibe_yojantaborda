@@ -1,0 +1,162 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Header*/
+
+
+.Somos{
+    background: url(../img/Cabecera2.png);
+    color: white;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+}
+
+.menu a{
+    color: white;
+    margin-left: 20px;
+    position: relative;
+}
+
+.menu a:hover{
+    color: rgb(255, 230, 161);
+    position: relative;
+}
+
+.menu-selected:before{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #ffd000;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.ui{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    color: white;
+}
+
+.ui div img{
+    margin-left: 30%;
+}
+
+.menu{
+    margin-right: 9%;
+}
+
+.menu a:hover{
+    color: rgb(255, 230, 161);
+    position: relative;
+}
+
+.menu a{
+    color: white;
+    margin-left: 15px;
+}
+
+.cabezaTextos{
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 19%;
+    padding-top: 19%;
+}
+
+.cabezaTextos h2{
+    font-size: 40px;
+}
+
+.textoAmarillo{
+    color: #ffd000;
+    padding-bottom: 0.2%;
+    padding-top: 0.2%;
+}
+
+.menu .menu-selected{
+    color: rgb(108, 236, 236);
+    font-size: 20px;
+}
+
+/*fotostext*/
+
+.txt{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: right;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+.txt h2{
+    font-size: 3.2em;
+}
+.txt p{
+    color: #e4b51c;
+    font-weight: 800;
+}
+
+.pdrc{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+.colum{
+    display: inline-table;
+    width: 25%;
+    text-align: center;
+    margin: 10px;
+}
+.colum h3{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.colum p{
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.colum img{
+    width: 100%;
+    height: 210.297px;
+}
+
+/*footer*/
+
+.socialMedia{
+    margin-top: 5em;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.end{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin-top: 20px;
+    background: #cecece;
+    color: #ffffff;
+    box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.3);
+  }
+  
